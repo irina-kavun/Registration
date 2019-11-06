@@ -1,0 +1,131 @@
+/*Extra large ≥1200px*/
+/*Large ≥992px*/
+/*Medium ≥768px*/
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.registration-form {
+    font-family: Montserrat, sans-serif;
+}
+
+.container {
+    padding: 0 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.registration-form-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+::-webkit-input-placeholder {
+    color: #BBBBBB;
+    font-size: 20px;
+}
+
+::-moz-placeholder {
+    color: #BBBBBB;
+    font-size: 20px;
+}
+
+:-ms-input-placeholder {
+    color: #BBBBBB;
+    font-size: 20px;
+}
+
+::-ms-input-placeholder {
+    color: #BBBBBB;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: #BBBBBB;
+    font-size: 20px;
+}
+
+.registration-form-layer {
+    border: 1px solid blue;
+    border-radius: 25px;
+    width: 100%;
+    text-align: center;
+    max-width: 550px;
+}
+
+.registration-form-close {
+    font-size: 30px;
+    color: #2F4FEB;
+    text-align: end;
+    margin: 15px;
+}
+
+.registration-form-title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #2E51EB;
+    margin: 10px 0 50px;
+}
+
+.registration-form-group {
+    margin: 30px 0;
+}
+
+.registration-form-input {
+    padding: 15px;
+    border: 1px solid #2F4FEB;
+    width: 100%;
+}
+
+.registration-button {
+    font-size: 26px;
+    margin: 10px 0 55px;
+    background-color: #2F4FEB;
+    color: #FFFFFF;
+    padding: 18px 22px;
+    border-radius: 30px;
+}
+
+.validation-field {
+    text-align: left;
+    margin-top: 7px;
+}
+
+/*Extra small <576px*/
+@media (max-width: 575px) {
+    .registration-form-close {
+        font-size: 27px;
+    }
+
+    .registration-form-title {
+        font-size: 22px;
+        margin: 10px 0 20px;
+    }
+
+    .registration-form-group {
+        margin: 20px 0;
+    }
+
+    .registration-form-input {
+        padding: 10px;
+    }
+
+    ::placeholder {
+        font-size: 15px;
+    }
+
+    .registration-button {
+        font-size: 16px;
+        margin: 10px 0 35px;
+    }
+}
